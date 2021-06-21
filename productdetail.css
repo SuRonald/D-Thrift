@@ -610,6 +610,10 @@ footer .copyright p{
     width: 100%;
 }
 
+#ikon{
+    margin: 0;
+}
+
 @media(max-width: 900px) {
     #h{
         padding-bottom: 20px;
