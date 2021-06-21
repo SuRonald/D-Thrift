@@ -1,87 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Contact D'Thrift</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="topbutton.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
+
 <body>
-    <div class="banner">
-        <img src="https://media.timeout.com/images/101714607/image.jpg" alt="banner">
-        <span class="blck"></span>
-        <div class="caption">
-            <h1 class="I">CONTACT</h1>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-caret-up-fill"
+            viewBox="0 0 16 16">
+            <path
+                d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z" />
+        </svg>
+    </button>
+    <header id="h">
+        <div class="logo">
+          <ul>
+            <li><a href="Home.html">
+              <img id="ikon" class="icon" src="https://cdn.discordapp.com/attachments/843073940247019520/854377095219904562/DTHRIFT.jpg" />
+            </a>
+            </li>
+          </ul>
         </div>
-    </div>
-    <br><br>
-    <div class="Maps">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80613.37850694492!2d106.83981324294406!3d-6.209805184508111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b9d%3A0x5371bf0fdad786a2!2sJakarta%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1621258979334!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </div>
-<br>
-    <div class="formulir">
-        <form name="Message" class="Send" action="/manage" method="POST" onsubmit="return validate();">
-            <br><br>
-            <h3>Send Us Your Message</h3>
-            
-            <div class="Add">
-                <label> Name </label> <br>
-                <input type="text" name="Nama" id="Nama" placeholder="Full Name"  required/>
-            </div>
-        
-            <div class="Add">
-                <label> Phone Number </label> <br>
-                <input type="tel" pattern="^\d{12}$" name="Number" id="Number" placeholder="+62" required/>
+        <div class="navbar">
+    
+          <ul>
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle"/>
+            <div class="menu">
+              <li><a href="Home.html">Home</a></li>
+              <li><a href="shop.html">Shop</a></li>
+              <li><a href="NewAbout.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="Blog.html">Blog</a></li>
+              <li><a href="login.html">Account</a></li>
             </div>
     
-            <div class="Add">
-                <label> Email </label> <br>
-                <input type="email" name="Email" id="Email" placeholder="@abc.domain" required/>
-            </div>
-            
-            <div class="AddM">
-                <label> Message </label> <br>
-                <input type="text" name="Message" id="Message" placeholder="Write a message here" required/>
-                
-            </div>
-            
-            <div class="sub">
-                <input type="submit" value="Submit" onclick="validate();">
-                <br><br><br> <br><br><br><br><br><br>
-                <br><br><br><br><br><br>
-                <br><br><br><br><br><br>
-            </div>
+          </ul>
+        </div>
+    </header>
 
-       </form>
-    </div>
-    <script type="text/javascript">
-        function validate(){
-            if (document.getElementById("Nama").value == "") {
-                alert("Name should be filled");
-                document.getElementById("Nama");
-                return false;
-            }
-            if (document.getElementById("Number").value == "") {
-                alert("Phone Number should be filled");
-                document.getElementById("Number");
-                return false;
-            }
-            
-            if (document.getElementById("Email").value == "") {
-                alert("Email should be filled");
-                document.getElementById("Email");
-                return false;
-            }
-            if (document.getElementById("Message").value == "") {
-                alert("Message should be filled");
-                document.getElementById("Message");
-                return false;
-            }
-        }
-       
-    </script>
+    <div class="content">
+        <div class="banner">
+            <img src="https://media.timeout.com/images/101714607/image.jpg" alt="banner">
+            <span class="blck"></span>
+            <div class="caption">
+                <h1 class="I">CONTACT</h1>
+            </div>
+        </div>
+        <div class="Maps">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80613.37850694492!2d106.83981324294406!3d-6.209805184508111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b9d%3A0x5371bf0fdad786a2!2sJakarta%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1621258979334!5m2!1sid!2sid"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        
+        <div class="formulir">
+            <form name="Message" class="Send" action="/manage" method="POST" onsubmit="return validate();">
+                <br><br>
+                <h2>Send Us Your Message</h2>
+                <br>
+                <div class="Add">
+                    <p>Name</p>
+                    <input type="text" name="Nama" id="Nama" placeholder="Full Name" required />
+                </div>
 
+                <div class="Add">
+                    <p>Phone Number</p>
+                    <input type="tel" pattern="^\d{12}$" name="Number" id="Number" placeholder="+62" required />
+                </div>
+
+                <div class="Add">
+                    <p>Email</p>
+                    <input type="email" name="Email" id="Email" placeholder="@abc.domain" required />
+                </div>
+
+                <div class="AddM">
+                    <p>Message</p>
+                    <input type="text" name="Message" id="Message" placeholder="Write a message here" required />
+                </div>
+
+                <div class="add">
+                    <input type="submit" value="Submit" onclick="validate();">
+                </div>
+            </form>
+        </div>
+        <script type="text/javascript">
+            function validate() {
+                if (document.getElementById("Nama").value == "") {
+                    alert("Name should be filled");
+                    document.getElementById("Nama");
+                    return false;
+                }
+                if (document.getElementById("Number").value == "") {
+                    alert("Phone Number should be filled");
+                    document.getElementById("Number");
+                    return false;
+                }
+
+                if (document.getElementById("Email").value == "") {
+                    alert("Email should be filled");
+                    document.getElementById("Email");
+                    return false;
+                }
+                if (document.getElementById("Message").value == "") {
+                    alert("Message should be filled");
+                    document.getElementById("Message");
+                    return false;
+                }
+            }
+        </script>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section getintouch">
+                    <h3>GET IN TOUCH</h3>
+                    <p>isi description...</p>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                        <a href="#"><i class="fab fa-snapchat"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section categories">
+                    <h3>CATEGORIES</h3>
+                    <!-- <br /> -->
+                    <ul>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section link">
+                    <h3>LINK</h3>
+                    <!-- <br /> -->
+                    <ul>
+                        <li><a href="#">Search</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section help">
+                    <h3>HELP</h3>
+                    <!-- <br /> -->
+                    <ul>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Shippings</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section newsletter">
+                    <h3>NEWSLETTER</h3>
+                    <form action="#" method="post">
+                        <input class="text-input contact-input" type="email" name="email"
+                            placeholder="email@example.com" />
+
+                        <button type="submit" name="button" class="btn btn-big">
+                            Subscribe
+                        </button>
+                    </form>
+
+                </div>
+            </div>
+            <!-- copyright pertama -->
+            <div class="copyright">
+                <p>Copyright - Kelompok 5</p>
+            </div>
+        </footer>
+        <script src="js/topbutton.js"></script>
 </body>
+
 </html>
