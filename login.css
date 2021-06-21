@@ -195,3 +195,96 @@ footer{
     top: 150px;
     position: relative;
 }
+
+/*Header & Footer*/
+
+#h{
+    height: 145px;
+    padding-top: 10px;
+}
+
+header ul{
+    margin: 0 0 10px;
+    padding: 0 0 0 40px;
+    list-style-type: none;
+    font-size: 14px;
+}
+
+header .navbar a{
+    font-weight: 500;
+}
+
+header .navbar{
+    margin: 0 0 20px;
+}
+
+header .navbar label{
+    padding-top: 11px;
+}
+
+.menu{
+    padding-top: 11px;
+}
+
+.menu .link{
+    margin-left: 0;
+    position: relative;
+    left: -5px;
+}
+
+footer{
+    margin-bottom: 10px;
+    position: relative;
+    top: 150px;
+}
+
+footer h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+footer p{
+    margin: 0 0 10px;
+    color: white;
+    opacity: 0.8;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+footer ul{
+    padding: 0 0 0 40px;
+    margin: 0 0 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+footer .socials .fab{
+    font-size: 18px;
+    width: 100%;
+}
+
+footer input{
+    font-weight: 500;
+}
+
+footer .copyright p{
+    width: 100%;
+}
+
+#ikon{
+    margin: 0;
+}
+
+@media(max-width: 900px) {
+    #h{
+        padding-bottom: 20px;
+    }
+    .main-body-detail{
+        top: 135px;
+    }
+}

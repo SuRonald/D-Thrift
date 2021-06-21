@@ -534,28 +534,24 @@ p{
     padding-top: 10px;
 }
 
-.header ul{
+header ul{
     margin: 0 0 10px;
     padding: 0 0 0 40px;
     list-style-type: none;
     font-size: 14px;
 }
 
-.header .navbar a{
+header .navbar a{
     font-weight: 500;
 }
 
-.header .navbar{
+header .navbar{
     margin: 0 0 20px;
 }
 
-.header .navbar label{
+header .navbar label{
     padding-top: 11px;
 }
-
-/* .icon{
-    margin-top: 4px;
-} */
 
 .menu{
     padding-top: 11px;
