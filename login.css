@@ -14,7 +14,7 @@
 .account-welcome{
     top: 150px;
     position: relative;
-    margin-top: 80px;
+    margin-top: 50px;
     justify-content: center;
     display: flex;
     background-image: url("https://cdn.discordapp.com/attachments/808376451320774666/856565462918103060/Black_and_Violet_Tulips_Beauty_Makeup_Facebook_Cover.png");
@@ -200,7 +200,6 @@ footer{
 /*Header & Footer*/
 
 #h{
-    height: 145px;
     padding-top: 10px;
 }
 
