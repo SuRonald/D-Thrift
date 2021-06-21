@@ -401,9 +401,9 @@ p{
 
 @media(max-width: 800px){
     #card .isi h4{
-        font-size: 12px;
+        font-size: 15px;
         padding: 10px 0;
-        height: 30px;
+        height: 80px;
     } 
     #card .isi p{
         font-size: 10px;
@@ -447,10 +447,11 @@ p{
     }
     #card .isi{
         width: 100px;
-        height: 200px;
+        height: 180px;
     }
     #card .isi h4{
-        height: 30px;
+        font-size: 12px;
+        height: 60px;
     } 
     
 }
@@ -492,7 +493,7 @@ p{
         font-size: 12px;
         padding-top: 5px;
         padding-bottom: 10px;
-        height: 35px;
+        height: 45px;
     }
     #card .isi p{
         font-size: 10px;
