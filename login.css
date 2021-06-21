@@ -1,9 +1,19 @@
 *{
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
 }
 
+@media(max-width: 900px) {
+    #h{
+        height: auto;
+        padding-bottom: 20px;
+    }
+}
 
 .account-welcome{
+    top: 150px;
+    position: relative;
     margin-top: 80px;
     justify-content: center;
     display: flex;
@@ -29,6 +39,8 @@
   }
 
 .login-form{
+    top: 150px;
+    position: relative;
 	margin: 100px;
 }
 
@@ -62,7 +74,6 @@
 .form-login{
     text-align: center;
 }
-
 
 #login{
     margin-top: 50px;
@@ -180,3 +191,7 @@
     color: white;
 }
 
+footer{
+    top: 150px;
+    position: relative;
+}
