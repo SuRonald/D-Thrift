@@ -4,6 +4,11 @@
     font-family: "Poppins", 'Times New Roman', Times, serif;
 }
 
+footer{
+    top: 150px;
+    position: relative;
+}
+
 /* .header ul{
 	list-style-type:none;
 }
@@ -12,10 +17,7 @@
     margin-left: 40px;
 }
 
-footer{
-    top: 150px;
-    position: relative;
-}
+
 
 .footer h3{
     font-size: 24px;
